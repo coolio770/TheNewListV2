@@ -157,7 +157,7 @@ func List(w http.ResponseWriter, r *http.Request) {
 	}
 	s := r.URL.Query().Get("s")
 	if (s == "2") {
-		ServerAddress := "66.70.181.77:30160"
+		ServerAddress := "66.70.181.77:30120"
 		getPlayerList(ServerAddress)
 		getServerQueueDetails(ServerAddress)
 	} else {
