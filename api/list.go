@@ -128,7 +128,7 @@ func parsePlayers() (err error) {
 }
 
 func loadPlayersJSON() (err error) {
-	jsonFile, err := jsonGet.Get("https://nplist.now.sh/players.json")
+	jsonFile, err := jsonGet.Get("https://the-new-list-v2.now.sh/players.json")
 	if err != nil {
 		return
 	}
